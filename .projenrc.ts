@@ -11,6 +11,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   projenrcTs: true,
   repositoryUrl: 'https://github.com/kckempf/cdk-dms-replication.git',
   homepage: 'https://github.com/kckempf/cdk-dms-replication#readme',
+  npmTrustedPublishing: true,
   description:
     'L3 CDK Constructs for Amazon Database Migration Service (DMS) — pattern construct bundling replication instance, endpoints, and tasks with secure defaults.',
   keywords: [
